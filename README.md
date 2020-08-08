@@ -14,3 +14,4 @@ docker pull peter279k/crawler-lab-coscup:latest
 - symfony/dom-crawler  v4.4.11 Symfony DomCrawler Component
 - chrome-php/chrome   v0.8.1   Instrument headless chrome/chromium instances from php
 - Google Chrome 84.0.4147.105
+- Tesseract package
