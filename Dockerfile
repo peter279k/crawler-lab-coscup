@@ -6,7 +6,7 @@ RUN apt-get install -y software-properties-common
 
 RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 RUN apt-get update
-RUN apt-get install -y unzip curl apt-transport-https apt-utils curl git-core php7.2-cli php7.2-curl
+RUN apt-get install -y unzip curl apt-transport-https apt-utils curl git-core php7.2-cli php7.2-curl libtesseract4 tesseract-ocr
 RUN apt-get install -y php7.2-xml php7.2-dom php7.2-xsl php7.2-json php7.2-mbstring php7.2-zip
 RUN apt-get install -y libcurl3-openssl-dev wget
 RUN wget --no-check-certificate  https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
